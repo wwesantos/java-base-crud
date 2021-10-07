@@ -6,7 +6,7 @@ Example of GET: <code> http://localhost:8080/quote/a5c19c42-cac5-4901-b6ce-b9518
 
 Requirements:
 * Postgres instance:
-<code> run --name postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -d -p 5432:5432 postgres </code>
+<code> docker run --name postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -d -p 5432:5432 postgres </code>
 
 Proposed exercices:
 1. Create a GET endpoint to return all quotes
